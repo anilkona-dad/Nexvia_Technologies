@@ -146,15 +146,3 @@ python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 * **Interactive Dashboard**: [http://localhost:8000/](http://localhost:8000/)
 * **Swagger API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
-
----
-
-## Submission Checklist for Technical Evaluation
-
-- [x] **Public Repository Visibility**: Ready to push to GitHub with visibility set to **Public**.
-- [x] **Clean Subfolders & Branches**: Both tracks separated into `DS-03-Social-Media-Intelligence` and `DS-04-Causal-AB-Testing-Platform` on `main`, plus dedicated `DS-03` and `DS-04` branches.
-- [x] **Complete Source Code & Tests**: 16 out of 16 tests passing across both suites.
-- [x] **Screenshots & Visuals**: High-resolution SVG dashboard mockups located in `docs/screenshots/`.
-- [x] **Documentation**: Full mathematical specifications, API endpoints, and architectures documented in root and subfolder READMEs.
-- [x] **10-Minute Presentation Agendas**: Detailed slide-by-slide outlines included for both tracks.
-- [x] **Intern Reflection Statements**: Structured learning reflections included for all milestones.
