@@ -1,0 +1,73 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#F8FAFC"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="35" y="18" width="34" height="34" rx="8" fill="#2563EB"/>
+  <text x="52" y="41" fill="white" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">CA</text>
+  <text x="82" y="36" fill="#0F172A" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Causal Inference &amp; A/B Experimentation Platform (DS-04)</text>
+  <text x="82" y="52" fill="#64748B" font-family="system-ui, sans-serif" font-size="12">Power Analysis • Frequentist FDR • Safe mSPRT Peeking • Bayesian Beta Posteriors • DoWhy Observational (PSM, DiD, SCM)</text>
+
+  <!-- Plain-English Verdict Banner -->
+  <rect x="40" y="90" width="1120" height="90" rx="12" fill="#ECFDF5" stroke="#6EE7B7"/>
+  <circle cx="70" cy="120" r="12" fill="#10B981"/>
+  <path d="M65 120 L69 124 L76 116" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="95" y="125" fill="#065F46" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">WINNER DETECTED: Variant B is Ready to Ship (+9.00% Relative Lift)</text>
+  <text x="95" y="150" fill="#047857" font-family="system-ui, sans-serif" font-size="13">
+    Variant B conversion rate (10.90%) outperformed Control (10.00%) with p = 0.0124 &lt; 0.05. Bayesian model confirms 98.4% probability B beats A (Expected Loss: 0.02%).
+  </text>
+  <text x="950" y="135" fill="#059669" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">● SAFE TO DEPLOY</text>
+
+  <!-- Panel 1: Sequential Testing (mSPRT) -->
+  <rect x="40" y="200" width="545" height="250" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="65" y="230" fill="#0F172A" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Continuous Peeking Protection (mSPRT)</text>
+  <text x="65" y="248" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Mixture SPRT Likelihood Ratio vs Early Stopping Boundary (1 / α = 20)</text>
+  
+  <line x1="65" y1="300" x2="550" y2="300" stroke="#E11D48" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="440" y="295" fill="#E11D48" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Boundary (1/α = 20)</text>
+  <path d="M65 410 Q 150 400, 240 370 T 380 320 T 520 270" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <circle cx="520" cy="270" r="5" fill="#2563EB"/>
+  <text x="65" y="435" fill="#10B981" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">✓ Stopped early at step n = 412 (Saved 58.8% sample collection time)</text>
+
+  <!-- Panel 2: Bayesian Posteriors -->
+  <rect x="615" y="200" width="545" height="250" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="640" y="230" fill="#0F172A" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Bayesian Beta-Binomial Posterior Distributions</text>
+  <text x="640" y="248" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Beta(1001, 9001) Control vs Beta(1091, 8911) Variant</text>
+  
+  <path d="M660 410 C 730 410, 750 280, 780 280 C 810 280, 830 410, 900 410" fill="none" stroke="#64748B" stroke-width="3"/>
+  <path d="M720 410 C 790 410, 820 270, 850 270 C 880 270, 900 410, 970 410" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <text x="750" y="380" fill="#64748B" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Control (10.0%)</text>
+  <text x="860" y="360" fill="#2563EB" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Variant (10.9%)</text>
+  <text x="640" y="435" fill="#0F172A" font-family="system-ui, sans-serif" font-size="12">P(B &gt; A) = <tspan font-weight="bold" fill="#2563EB">98.4%</tspan> • 95% HDI: <tspan font-weight="bold">[+1.8%, +16.2%]</tspan></text>
+
+  <!-- Panel 3: Difference-in-Differences (Card & Krueger) -->
+  <rect x="40" y="470" width="545" height="250" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="65" y="500" fill="#0F172A" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Difference-in-Differences (Card &amp; Krueger 1994)</text>
+  <text x="65" y="518" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">New Jersey (Treated) vs Pennsylvania (Control) minimum wage policy</text>
+  
+  <line x1="120" y1="620" x2="480" y2="670" stroke="#64748B" stroke-width="3"/>
+  <text x="490" y="675" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">PA (Control)</text>
+  
+  <line x1="120" y1="650" x2="480" y2="640" stroke="#2563EB" stroke-width="3"/>
+  <text x="490" y="645" fill="#2563EB" font-family="system-ui, sans-serif" font-size="11">NJ (Treated)</text>
+
+  <line x1="120" y1="650" x2="480" y2="700" stroke="#9333EA" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="490" y="705" fill="#9333EA" font-family="system-ui, sans-serif" font-size="11">NJ Counterfactual</text>
+  
+  <text x="65" y="700" fill="#0F172A" font-family="system-ui, sans-serif" font-size="12">DiD Causal Effect: <tspan font-weight="bold" fill="#2563EB">+2.75 FTE employees</tspan> (p = 0.018)</text>
+
+  <!-- Panel 4: Synthetic Control (California Prop 99) -->
+  <rect x="615" y="470" width="545" height="250" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="640" y="500" fill="#0F172A" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Synthetic Control Method (California Prop 99)</text>
+  <text x="640" y="518" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Cigarette consumption per capita (1970 - 2000) with convex donor pool</text>
+  
+  <path d="M650 560 L 780 580 L 850 600 L 980 670 L 1120 710" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <path d="M650 560 L 780 580 L 850 600 L 980 620 L 1120 640" fill="none" stroke="#E11D48" stroke-width="2.5" stroke-dasharray="4 4"/>
+  
+  <line x1="850" y1="540" x2="850" y2="700" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <text x="855" y="555" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Prop 99 (1988)</text>
+  
+  <text x="640" y="700" fill="#0F172A" font-family="system-ui, sans-serif" font-size="12">
+    Post-Intervention Gap: <tspan font-weight="bold" fill="#2563EB">-26.1 packs/capita</tspan> • Pre-period RMSE: <tspan font-weight="bold">1.42</tspan>
+  </text>
+</svg>

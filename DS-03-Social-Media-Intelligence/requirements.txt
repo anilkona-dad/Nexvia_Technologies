@@ -1,0 +1,34 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+pydantic>=2.0.0
+pyyaml>=6.0
+python-dateutil>=2.8.2
+
+# Text Cleaning & Normalization
+emoji>=2.8.0
+langdetect>=1.0.9
+
+# NLP & Topic Modeling
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+bertopic>=0.16.0
+
+# Graph Analytics
+networkx>=3.1
+neo4j>=5.14.0
+
+# Search & Visualization
+elasticsearch>=8.11.0
+requests>=2.31.0
+
+# API Collectors
+praw>=7.7.1
+google-api-python-client>=2.108.0
+
+# Testing & Utilities
+pytest>=7.4.0
+tqdm>=4.66.0
+streamlit>=1.28.0

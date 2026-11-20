@@ -1,0 +1,89 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#0F172A"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#1E293B" stroke="#334155"/>
+  <circle cx="45" cy="35" r="18" fill="#3B82F6"/>
+  <text x="45" y="41" fill="white" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">SP</text>
+  <text x="80" y="36" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Social Pulse | Intelligence Platform (DS-03)</text>
+  <text x="80" y="52" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Multilingual Sentiment • Dynamic BERTopic • PageRank Influencers • LIAR Misinformation</text>
+  
+  <rect x="1050" y="20" width="110" height="30" rx="6" fill="#22C55E" fill-opacity="0.2" stroke="#22C55E"/>
+  <text x="1105" y="40" fill="#4ADE80" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">● LIVE SYSTEM</text>
+
+  <!-- KPI Cards -->
+  <!-- Card 1 -->
+  <rect x="40" y="95" width="260" height="95" rx="10" fill="#1E293B" stroke="#334155"/>
+  <text x="60" y="125" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">INGESTED POSTS</text>
+  <text x="60" y="165" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">150</text>
+  <text x="180" y="165" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12">Reddit &amp; YouTube</text>
+
+  <!-- Card 2 -->
+  <rect x="325" y="95" width="260" height="95" rx="10" fill="#1E293B" stroke="#334155"/>
+  <text x="345" y="125" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">MULTILINGUAL SENTIMENT</text>
+  <text x="345" y="165" fill="#4ADE80" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">63.3%</text>
+  <text x="445" y="165" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Pos (95 / 15 / 40)</text>
+
+  <!-- Card 3 -->
+  <rect x="610" y="95" width="260" height="95" rx="10" fill="#1E293B" stroke="#334155"/>
+  <text x="630" y="125" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">TOP INFLUENCER PAGERANK</text>
+  <text x="630" y="165" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">@GlobalNews</text>
+  <text x="800" y="165" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12">PR: 0.134</text>
+
+  <!-- Card 4 -->
+  <rect x="895" y="95" width="265" height="95" rx="10" fill="#1E293B" stroke="#EF4444" stroke-opacity="0.4"/>
+  <text x="915" y="125" fill="#F87171" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">LIAR FAKE-NEWS ACCURACY</text>
+  <text x="915" y="165" fill="#EF4444" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">76.92%</text>
+  <text x="1045" y="165" fill="#FCA5A5" font-family="system-ui, sans-serif" font-size="12">F1: 76.64%</text>
+
+  <!-- Chart Left: Temporal Topics & Sentiment Dynamics -->
+  <rect x="40" y="215" width="545" height="495" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="65" y="248" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Temporal Topic Evolution &amp; Sentiment Trajectory</text>
+  <text x="65" y="268" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">30-day dynamic windowing with BERTopic + XLM-RoBERTa</text>
+  
+  <!-- Chart Line Mockup -->
+  <path d="M70 420 Q 180 340, 260 380 T 420 300 T 540 330" fill="none" stroke="#3B82F6" stroke-width="4"/>
+  <path d="M70 470 Q 150 490, 260 450 T 400 480 T 540 430" fill="none" stroke="#22C55E" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M70 510 Q 180 520, 300 500 T 450 510 T 540 490" fill="none" stroke="#EF4444" stroke-width="2"/>
+
+  <!-- Legend -->
+  <circle cx="90" cy="560" r="5" fill="#3B82F6"/>
+  <text x="105" y="564" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">Topic 0: AI &amp; Robotics Breakthroughs</text>
+  <circle cx="90" cy="585" r="5" fill="#22C55E"/>
+  <text x="105" y="589" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">Topic 4: Renewable Solar &amp; Wind Records</text>
+  <circle cx="90" cy="610" r="5" fill="#EF4444"/>
+  <text x="105" y="614" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">Topic: Misinformation &amp; Conspiracy Peaks</text>
+
+  <!-- Chart Right: Influencer Network & Misinformation Radar -->
+  <rect x="615" y="215" width="545" height="495" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="640" y="248" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">NetworkX Influencer Graph &amp; Misinformation Alerts</text>
+  <text x="640" y="268" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">PageRank centrality scores synced to Neo4j graph &amp; Elasticsearch</text>
+
+  <!-- Influencer Table Mockup -->
+  <rect x="640" y="295" width="495" height="40" rx="6" fill="#334155"/>
+  <text x="660" y="320" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">RANK / USERNAME</text>
+  <text x="880" y="320" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">PAGERANK</text>
+  <text x="1020" y="320" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">REPLY IN-DEG</text>
+
+  <text x="660" y="360" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13">1. @GlobalNews_Watcher</text>
+  <text x="880" y="360" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">0.13435</text>
+  <text x="1040" y="360" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">11 replies</text>
+  <line x1="640" y1="375" x2="1135" y2="375" stroke="#334155"/>
+
+  <text x="660" y="405" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13">2. @TechPioneer_Alpha</text>
+  <text x="880" y="405" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">0.12929</text>
+  <text x="1040" y="405" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">9 replies</text>
+  <line x1="640" y1="420" x2="1135" y2="420" stroke="#334155"/>
+
+  <text x="660" y="450" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13">3. @sceptic_voice</text>
+  <text x="880" y="450" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">0.10441</text>
+  <text x="1040" y="450" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">8 replies</text>
+  <line x1="640" y1="465" x2="1135" y2="465" stroke="#334155"/>
+
+  <!-- Alert Box -->
+  <rect x="640" y="500" width="495" height="180" rx="8" fill="#450A0A" stroke="#EF4444"/>
+  <text x="660" y="530" fill="#FCA5A5" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">⚠️ Misinformation Radar Alert (CRITICAL RISK)</text>
+  <text x="660" y="555" fill="#FECACA" font-family="system-ui, sans-serif" font-size="12">"URGENT: Government secret directive bans all cash transactions by next month!"</text>
+  <text x="660" y="580" fill="#F87171" font-family="system-ui, sans-serif" font-size="11">Classification: Misinformation / Fake • Fake Probability: 91.2% • Sensationalism Cues: Detected</text>
+  <text x="660" y="605" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="11">Action: Automatically flagged for moderation queue and Elasticsearch alert webhook.</text>
+</svg>

@@ -1,0 +1,638 @@
+[
+  {
+    "post_id": "reddit_post_1000",
+    "platform": "reddit",
+    "author": "TruthSeeker_99",
+    "created_at": "2026-11-16T02:57:25.786270+00:00",
+    "title": "Is open-source AI surpassing proprietary models? Deep dive analysis 💻",
+    "content": "Benchmarking the latest 70B open weights against enterprise APIs. The cost-to-performance ratio is shifting dramatically in favor of self-hosting.",
+    "url": "https://reddit.com/posts/1000",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 429,
+      "upvote_ratio": 0.88,
+      "num_comments": 0,
+      "view_count": 36241
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_post_1001",
+    "platform": "reddit",
+    "author": "TechPioneer_Alpha",
+    "created_at": "2026-11-13T18:00:18.466316+00:00",
+    "title": "Is open-source AI surpassing proprietary models? Deep dive analysis 💻",
+    "content": "Benchmarking the latest 70B open weights against enterprise APIs. The cost-to-performance ratio is shifting dramatically in favor of self-hosting.",
+    "url": "https://reddit.com/posts/1001",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 2079,
+      "upvote_ratio": 0.85,
+      "num_comments": 0,
+      "view_count": 37281
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_post_1002",
+    "platform": "reddit",
+    "author": "optimist_prime",
+    "created_at": "2026-11-02T15:09:11.444401+00:00",
+    "title": "Solar capacity surpasses coal generation in major power grid milestones ☀️⚡",
+    "content": "Record investment in utility-scale battery storage has enabled renewable power to dominate peak energy hours this summer. Clean energy future is here!",
+    "url": "https://reddit.com/posts/1002",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 2,
+      "upvote_ratio": 0.91,
+      "num_comments": 0,
+      "view_count": 10963
+    },
+    "raw_metadata": {
+      "topic_category": "Climate & Energy",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_post_1003",
+    "platform": "reddit",
+    "author": "QuantumLeap_AI",
+    "created_at": "2026-10-28T09:42:31.314622+00:00",
+    "title": "Secret miracle mineral cures 100% of degenerative diseases instantly! ⚠️💊",
+    "content": "Big pharma is hiding the simple salt crystalline cure found in backyard dirt. Doctors are being silenced! Buy the extract now at miracle-cure-scam.xyz",
+    "url": "https://reddit.com/posts/1003",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 428,
+      "upvote_ratio": 0.68,
+      "num_comments": 0,
+      "view_count": 6838
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": true
+    }
+  },
+  {
+    "post_id": "youtube_post_1004",
+    "platform": "youtube",
+    "author": "code_ninja",
+    "created_at": "2026-10-29T10:01:03.305897+00:00",
+    "title": "URGENT: Government secret directive bans all cash transactions by next month! 🚨😱",
+    "content": "Leaked confidential memos prove central banks will seize all physical currency next Tuesday. Share this before they delete it! Absolute tyranny! 💥",
+    "url": "https://youtube.com/posts/1004",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 138,
+      "upvote_ratio": 0.69,
+      "num_comments": 0,
+      "view_count": 25307
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": true
+    }
+  },
+  {
+    "post_id": "youtube_post_1005",
+    "platform": "youtube",
+    "author": "CyberSentinel",
+    "created_at": "2026-10-25T10:59:43.811401+00:00",
+    "title": "Is open-source AI surpassing proprietary models? Deep dive analysis 💻",
+    "content": "Benchmarking the latest 70B open weights against enterprise APIs. The cost-to-performance ratio is shifting dramatically in favor of self-hosting.",
+    "url": "https://youtube.com/posts/1005",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 2374,
+      "upvote_ratio": 0.72,
+      "num_comments": 0,
+      "view_count": 5058
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "youtube_post_1006",
+    "platform": "youtube",
+    "author": "pixel_artist",
+    "created_at": "2026-10-25T15:35:44.564136+00:00",
+    "title": "Breakthrough in autonomous robotics achieves human-level dexterity 🤖🚀",
+    "content": "Researchers have revealed a new foundation model for manipulation that learns dexterity in zero-shot environments. This is a game changer! 🔥",
+    "url": "https://youtube.com/posts/1006",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 26,
+      "upvote_ratio": 0.78,
+      "num_comments": 0,
+      "view_count": 30214
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_post_1007",
+    "platform": "reddit",
+    "author": "TruthSeeker_99",
+    "created_at": "2026-11-12T07:12:01.582256+00:00",
+    "title": "URGENT: Government secret directive bans all cash transactions by next month! 🚨😱",
+    "content": "Leaked confidential memos prove central banks will seize all physical currency next Tuesday. Share this before they delete it! Absolute tyranny! 💥",
+    "url": "https://reddit.com/posts/1007",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 302,
+      "upvote_ratio": 0.86,
+      "num_comments": 0,
+      "view_count": 11715
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": true
+    }
+  },
+  {
+    "post_id": "reddit_post_1008",
+    "platform": "reddit",
+    "author": "elena_es",
+    "created_at": "2026-11-12T05:03:43.329982+00:00",
+    "title": "Critical zero-day vulnerability patched in popular network appliances 🛡️🔒",
+    "content": "Security agencies urge immediate firmware update across edge routers following widespread automated scanning activity.",
+    "url": "https://reddit.com/posts/1008",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 143,
+      "upvote_ratio": 0.72,
+      "num_comments": 0,
+      "view_count": 21752
+    },
+    "raw_metadata": {
+      "topic_category": "Cybersecurity",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "youtube_post_1009",
+    "platform": "youtube",
+    "author": "TechPioneer_Alpha",
+    "created_at": "2026-11-08T06:35:08.969045+00:00",
+    "title": "Breakthrough in autonomous robotics achieves human-level dexterity 🤖🚀",
+    "content": "Researchers have revealed a new foundation model for manipulation that learns dexterity in zero-shot environments. This is a game changer! 🔥",
+    "url": "https://youtube.com/posts/1009",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 281,
+      "upvote_ratio": 0.72,
+      "num_comments": 0,
+      "view_count": 37670
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_post_1010",
+    "platform": "reddit",
+    "author": "GlobalNews_Watcher",
+    "created_at": "2026-10-23T20:57:00.744400+00:00",
+    "title": "URGENT: Government secret directive bans all cash transactions by next month! 🚨😱",
+    "content": "Leaked confidential memos prove central banks will seize all physical currency next Tuesday. Share this before they delete it! Absolute tyranny! 💥",
+    "url": "https://reddit.com/posts/1010",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 1889,
+      "upvote_ratio": 0.7,
+      "num_comments": 0,
+      "view_count": 9650
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": true
+    }
+  },
+  {
+    "post_id": "youtube_post_1011",
+    "platform": "youtube",
+    "author": "code_ninja",
+    "created_at": "2026-11-07T10:57:07.616659+00:00",
+    "title": "Solar capacity surpasses coal generation in major power grid milestones ☀️⚡",
+    "content": "Record investment in utility-scale battery storage has enabled renewable power to dominate peak energy hours this summer. Clean energy future is here!",
+    "url": "https://youtube.com/posts/1011",
+    "parent_id": null,
+    "target_author": null,
+    "metrics": {
+      "score": 150,
+      "upvote_ratio": 0.79,
+      "num_comments": 0,
+      "view_count": 14873
+    },
+    "raw_metadata": {
+      "topic_category": "Climate & Energy",
+      "language": "en",
+      "is_synthetic": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2000",
+    "platform": "reddit",
+    "author": "science_nerd",
+    "created_at": "2026-11-03T15:05:42.652167+00:00",
+    "title": "Re: Solar capacity surpasses coal generation...",
+    "content": "Completely agree with @optimist_prime! The evidence is undeniable. 👏",
+    "url": "https://reddit.com/posts/1002#reply_2000",
+    "parent_id": "reddit_post_1002",
+    "target_author": "optimist_prime",
+    "metrics": {
+      "score": 14,
+      "upvote_ratio": 0.58
+    },
+    "raw_metadata": {
+      "topic_category": "Climate & Energy",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2001",
+    "platform": "reddit",
+    "author": "hans_de",
+    "created_at": "2026-11-03T19:58:57.388656+00:00",
+    "title": "Re: Solar capacity surpasses coal generation...",
+    "content": "Thanks for sharing this @optimist_prime! Forwarding to our entire engineering team. 🚀",
+    "url": "https://reddit.com/posts/1002#reply_2001",
+    "parent_id": "reddit_post_1002",
+    "target_author": "optimist_prime",
+    "metrics": {
+      "score": 48,
+      "upvote_ratio": 0.8
+    },
+    "raw_metadata": {
+      "topic_category": "Climate & Energy",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2002",
+    "platform": "reddit",
+    "author": "policy_analyst",
+    "created_at": "2026-11-12T19:38:33.396773+00:00",
+    "title": "Re: URGENT: Government secret directive bans...",
+    "content": "I am skeptical about these numbers @TruthSeeker_99. Correlation is not causation.",
+    "url": "https://reddit.com/posts/1007#reply_2002",
+    "parent_id": "reddit_post_1007",
+    "target_author": "TruthSeeker_99",
+    "metrics": {
+      "score": 1,
+      "upvote_ratio": 0.84
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2003",
+    "platform": "reddit",
+    "author": "skeptical_user42",
+    "created_at": "2026-11-15T06:10:18.570046+00:00",
+    "title": "Re: Is open-source AI surpassing proprietary...",
+    "content": "Spot on! We are witnessing history unfold right in front of our eyes. 🔥",
+    "url": "https://reddit.com/posts/1001#reply_2003",
+    "parent_id": "reddit_post_1001",
+    "target_author": "TechPioneer_Alpha",
+    "metrics": {
+      "score": 43,
+      "upvote_ratio": 0.56
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "youtube_reply_2004",
+    "platform": "youtube",
+    "author": "CyberSentinel",
+    "created_at": "2026-10-26T13:38:51.317918+00:00",
+    "title": "Re: Breakthrough in autonomous robotics achi...",
+    "content": "Spot on! We are witnessing history unfold right in front of our eyes. 🔥",
+    "url": "https://youtube.com/posts/1006#reply_2004",
+    "parent_id": "youtube_post_1006",
+    "target_author": "pixel_artist",
+    "metrics": {
+      "score": 33,
+      "upvote_ratio": 0.99
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2005",
+    "platform": "reddit",
+    "author": "science_nerd",
+    "created_at": "2026-11-04T11:00:10.804929+00:00",
+    "title": "Re: Solar capacity surpasses coal generation...",
+    "content": "Spot on! We are witnessing history unfold right in front of our eyes. 🔥",
+    "url": "https://reddit.com/posts/1002#reply_2005",
+    "parent_id": "reddit_post_1002",
+    "target_author": "optimist_prime",
+    "metrics": {
+      "score": 38,
+      "upvote_ratio": 0.92
+    },
+    "raw_metadata": {
+      "topic_category": "Climate & Energy",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2006",
+    "platform": "reddit",
+    "author": "eco_warrior",
+    "created_at": "2026-11-12T15:00:37.128384+00:00",
+    "title": "Re: Critical zero-day vulnerability patched ...",
+    "content": "This looks like total fake news @elena_es. Do you have any verified peer-reviewed sources?",
+    "url": "https://reddit.com/posts/1008#reply_2006",
+    "parent_id": "reddit_post_1008",
+    "target_author": "elena_es",
+    "metrics": {
+      "score": 20,
+      "upvote_ratio": 0.77
+    },
+    "raw_metadata": {
+      "topic_category": "Cybersecurity",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2007",
+    "platform": "reddit",
+    "author": "TechPioneer_Alpha",
+    "created_at": "2026-11-13T10:00:42.853925+00:00",
+    "title": "Re: Critical zero-day vulnerability patched ...",
+    "content": "Thanks for sharing this @elena_es! Forwarding to our entire engineering team. 🚀",
+    "url": "https://reddit.com/posts/1008#reply_2007",
+    "parent_id": "reddit_post_1008",
+    "target_author": "elena_es",
+    "metrics": {
+      "score": 2,
+      "upvote_ratio": 0.56
+    },
+    "raw_metadata": {
+      "topic_category": "Cybersecurity",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "youtube_reply_2008",
+    "platform": "youtube",
+    "author": "future_tech_fan",
+    "created_at": "2026-10-25T22:52:10.156469+00:00",
+    "title": "Re: Is open-source AI surpassing proprietary...",
+    "content": "Interesting point @CyberSentinel, but have you considered the counterarguments?",
+    "url": "https://youtube.com/posts/1005#reply_2008",
+    "parent_id": "youtube_post_1005",
+    "target_author": "CyberSentinel",
+    "metrics": {
+      "score": 72,
+      "upvote_ratio": 0.97
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2009",
+    "platform": "reddit",
+    "author": "science_nerd",
+    "created_at": "2026-11-15T09:15:58.442651+00:00",
+    "title": "Re: Is open-source AI surpassing proprietary...",
+    "content": "I am skeptical about these numbers @TechPioneer_Alpha. Correlation is not causation.",
+    "url": "https://reddit.com/posts/1001#reply_2009",
+    "parent_id": "reddit_post_1001",
+    "target_author": "TechPioneer_Alpha",
+    "metrics": {
+      "score": 16,
+      "upvote_ratio": 0.56
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2010",
+    "platform": "reddit",
+    "author": "skeptical_user42",
+    "created_at": "2026-11-12T15:32:38.292241+00:00",
+    "title": "Re: URGENT: Government secret directive bans...",
+    "content": "I am skeptical about these numbers @TruthSeeker_99. Correlation is not causation.",
+    "url": "https://reddit.com/posts/1007#reply_2010",
+    "parent_id": "reddit_post_1007",
+    "target_author": "TruthSeeker_99",
+    "metrics": {
+      "score": 77,
+      "upvote_ratio": 0.71
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2011",
+    "platform": "reddit",
+    "author": "skeptical_user42",
+    "created_at": "2026-10-29T22:05:01.663247+00:00",
+    "title": "Re: Secret miracle mineral cures 100% of deg...",
+    "content": "Spot on! We are witnessing history unfold right in front of our eyes. 🔥",
+    "url": "https://reddit.com/posts/1003#reply_2011",
+    "parent_id": "reddit_post_1003",
+    "target_author": "QuantumLeap_AI",
+    "metrics": {
+      "score": 25,
+      "upvote_ratio": 0.86
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "youtube_reply_2012",
+    "platform": "youtube",
+    "author": "digital_nomad",
+    "created_at": "2026-10-26T09:49:59.470069+00:00",
+    "title": "Re: Breakthrough in autonomous robotics achi...",
+    "content": "I am skeptical about these numbers @pixel_artist. Correlation is not causation.",
+    "url": "https://youtube.com/posts/1006#reply_2012",
+    "parent_id": "youtube_post_1006",
+    "target_author": "pixel_artist",
+    "metrics": {
+      "score": 57,
+      "upvote_ratio": 0.56
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2013",
+    "platform": "reddit",
+    "author": "GlobalNews_Watcher",
+    "created_at": "2026-10-29T02:16:03.945749+00:00",
+    "title": "Re: Secret miracle mineral cures 100% of deg...",
+    "content": "I am skeptical about these numbers @QuantumLeap_AI. Correlation is not causation.",
+    "url": "https://reddit.com/posts/1003#reply_2013",
+    "parent_id": "reddit_post_1003",
+    "target_author": "QuantumLeap_AI",
+    "metrics": {
+      "score": 70,
+      "upvote_ratio": 0.62
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2014",
+    "platform": "reddit",
+    "author": "TechPioneer_Alpha",
+    "created_at": "2026-10-28T13:34:51.132330+00:00",
+    "title": "Re: Secret miracle mineral cures 100% of deg...",
+    "content": "Spot on! We are witnessing history unfold right in front of our eyes. 🔥",
+    "url": "https://reddit.com/posts/1003#reply_2014",
+    "parent_id": "reddit_post_1003",
+    "target_author": "QuantumLeap_AI",
+    "metrics": {
+      "score": 7,
+      "upvote_ratio": 0.61
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2015",
+    "platform": "reddit",
+    "author": "elena_es",
+    "created_at": "2026-11-16T06:49:22.393101+00:00",
+    "title": "Re: Is open-source AI surpassing proprietary...",
+    "content": "Interesting point @TruthSeeker_99, but have you considered the counterarguments?",
+    "url": "https://reddit.com/posts/1000#reply_2015",
+    "parent_id": "reddit_post_1000",
+    "target_author": "TruthSeeker_99",
+    "metrics": {
+      "score": 35,
+      "upvote_ratio": 0.83
+    },
+    "raw_metadata": {
+      "topic_category": "AI & Robotics",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2016",
+    "platform": "reddit",
+    "author": "skeptical_user42",
+    "created_at": "2026-10-28T16:29:36.640754+00:00",
+    "title": "Re: Secret miracle mineral cures 100% of deg...",
+    "content": "I am skeptical about these numbers @QuantumLeap_AI. Correlation is not causation.",
+    "url": "https://reddit.com/posts/1003#reply_2016",
+    "parent_id": "reddit_post_1003",
+    "target_author": "QuantumLeap_AI",
+    "metrics": {
+      "score": 73,
+      "upvote_ratio": 0.74
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  },
+  {
+    "post_id": "reddit_reply_2017",
+    "platform": "reddit",
+    "author": "code_ninja",
+    "created_at": "2026-11-12T16:44:41.677612+00:00",
+    "title": "Re: URGENT: Government secret directive bans...",
+    "content": "Completely agree with @TruthSeeker_99! The evidence is undeniable. 👏",
+    "url": "https://reddit.com/posts/1007#reply_2017",
+    "parent_id": "reddit_post_1007",
+    "target_author": "TruthSeeker_99",
+    "metrics": {
+      "score": 55,
+      "upvote_ratio": 0.68
+    },
+    "raw_metadata": {
+      "topic_category": "Misinformation / Conspiracies",
+      "is_reply": true,
+      "ground_truth_fake": false
+    }
+  }
+]

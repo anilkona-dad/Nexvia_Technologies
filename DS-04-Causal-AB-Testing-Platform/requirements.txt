@@ -1,0 +1,15 @@
+# Core Statistical & Causal Inference
+statsmodels>=0.14.0
+scipy>=1.10.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+dowhy>=0.11.0
+
+# API & Web Service
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0

@@ -1,0 +1,53 @@
+app:
+  name: "Social Media Intelligence Platform"
+  version: "1.0.0"
+  log_level: "INFO"
+  seed: 42
+
+paths:
+  raw_reddit: "data/raw/reddit"
+  raw_youtube: "data/raw/youtube"
+  processed_data: "data/processed/posts_enriched.jsonl"
+  models_dir: "data/models"
+  liar_dataset_dir: "data/liar"
+
+apis:
+  reddit:
+    client_id: ""
+    client_secret: ""
+    user_agent: "SocialPulse/1.0"
+    subreddits: ["technology", "worldnews", "science", "fakenews", "ArtificialInteligence"]
+    limit_per_sub: 50
+  youtube:
+    api_key: ""
+    search_queries: ["breaking news", "technology trends", "ai breakthrough", "science discovery"]
+    max_results_per_query: 25
+    max_comments_per_video: 30
+
+nlp:
+  sentiment:
+    model_name: "cardiffnlp/twitter-xlm-roberta-base-sentiment"
+    batch_size: 32
+    max_length: 256
+  bertopic:
+    embedding_model: "paraphrase-multilingual-MiniLM-L12-v2"
+    min_topic_size: 5
+    nr_topics: "auto"
+  misinformation:
+    model_type: "tfidf_classifier" # tfidf_classifier | transformer
+    dataset: "liar"
+    test_size: 0.2
+    random_state: 42
+
+graph:
+  damping_factor: 0.85
+  max_iter: 100
+  neo4j:
+    uri: "bolt://localhost:7687"
+    user: "neo4j"
+    password: "socialpulse2026"
+
+elasticsearch:
+  hosts: ["http://localhost:9200"]
+  index_name: "social-pulse-posts"
+  batch_size: 250

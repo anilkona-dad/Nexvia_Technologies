@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "analysis": {
+      "analyzer": {
+        "social_text_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["lowercase", "asciifolding"]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "post_id": { "type": "keyword" },
+      "platform": { "type": "keyword" },
+      "author": { "type": "keyword" },
+      "created_at": { "type": "date" },
+      "title": { "type": "text", "analyzer": "social_text_analyzer" },
+      "content": { "type": "text", "analyzer": "social_text_analyzer" },
+      "cleaned_text": { "type": "text", "analyzer": "social_text_analyzer" },
+      "language": { "type": "keyword" },
+      "emojis": { "type": "keyword" },
+      "url": { "type": "keyword" },
+      "metrics": {
+        "properties": {
+          "score": { "type": "long" },
+          "upvote_ratio": { "type": "float" },
+          "num_comments": { "type": "long" },
+          "view_count": { "type": "long" }
+        }
+      },
+      "sentiment": {
+        "properties": {
+          "label": { "type": "keyword" },
+          "polarity": { "type": "float" },
+          "confidence": { "type": "float" }
+        }
+      },
+      "topic": {
+        "properties": {
+          "topic_id": { "type": "integer" },
+          "topic_name": { "type": "keyword" },
+          "top_words": { "type": "keyword" },
+          "confidence": { "type": "float" }
+        }
+      },
+      "graph_metrics": {
+        "properties": {
+          "author_pagerank": { "type": "float" },
+          "author_in_degree": { "type": "integer" },
+          "community_id": { "type": "integer" }
+        }
+      },
+      "misinformation": {
+        "properties": {
+          "label": { "type": "keyword" },
+          "fake_probability": { "type": "float" },
+          "risk_level": { "type": "keyword" }
+        }
+      }
+    }
+  }
+}

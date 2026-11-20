@@ -1,0 +1,2 @@
+"""Social Media Intelligence Platform Package."""
+__version__ = "1.0.0"
